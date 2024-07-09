@@ -1,0 +1,459 @@
+/* google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* ======================= Button reusable class ======================= */
+
+.btn{
+    width: 279px;
+    height: 66px;
+    margin: 32px 0;
+    background-color: rgb(82, 195, 3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(70, 165, 2);
+}
+
+/* ======================= Button reusable class ======================= */
+
+/* ======================= hero-section start ======================= */
+
+#hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    width: 1023px;
+    text-align: center;
+}
+
+.hero-content .sub-header{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 38px;
+    margin: 16px 0;
+    opacity: 0.8;
+}
+
+.hero-content .hero-heading{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+    margin: 16px 0;
+}
+
+.hero-content .hero-para{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    margin: 24px 0;
+    opacity: 0.7;
+}
+
+.hero-content .btn-box .btn{
+    width: 279px;
+    height: 66px;
+    margin: 32px 0;
+    background-color: rgb(82, 195, 3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease;
+}
+
+.hero-content .btn-box .btn a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-content .btn-box .btn:hover{
+    background-color: rgb(70, 165, 2);
+}
+
+/* ======================= hero-section start ======================= */
+
+/* ======================= card-section start =======================*/
+
+#card-box{
+    width: 100%;
+    height: 1222px;
+    padding: 167px 300px 179px 300px;
+}
+
+.card-content{
+    width: 1320px;
+    height: 746px;
+    text-align: center;
+}
+
+.card-content .card-heading-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content .card-heading-content .card-text-box{
+    text-align: center;
+}
+
+.card-content .card-heading-content .card-text-box .sub-header{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    margin: 16px 0;
+}
+
+.card-content .card-heading-content .card-text-box .heading{
+    width: 691px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: rgb(16, 16, 16);
+    margin: 16px 0;
+}
+
+.card-content .card-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+}
+
+.card-content .card-container .card{
+    width: 424px;
+    height: 283px;
+    text-align: center;
+}
+
+.card-content .card-container .card .img1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/pizza.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.card-content .card-container .card .img2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/biriyani.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.card-content .card-container .card .img3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/burger.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.card-content .card-container .card span{
+    display: inline-block;
+    padding: 14px 32px 14px 32px;
+    margin: 24px 0;
+    background-color: rgba(82, 195, 3, 0.15);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+}
+
+
+.card-content .card-container .card .card-para{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    color: rgb(16, 16, 16);
+    margin: 12px 0;
+}
+
+.card-content .card-container .card .card-details-para{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+    margin: 12px 0;
+}
+
+.card-content .btn-box{
+    margin-top: 290px;
+}
+
+/* ======================= card-section end =======================*/
+
+/* ======================= about section start ====================== */
+
+#about-us{
+    width: 100%;
+    height: 671px;
+}
+
+.about-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content .left-content{
+    width: 960px;
+    height: 100%;
+    background-image: url(../assets/foods.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content .right-content{
+    width: 960px;
+    height: auto;
+    text-align: center;
+}
+
+.about-content .right-content .about-heading{
+    display: inline-block;
+    width: 805px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 24px 0;
+}
+
+.about-content .right-content .about-para{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+}
+
+.about-content .right-content .about-follow-text{
+    padding: 30px 0;
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+}
+
+.about-content .right-content .icon-box{
+    margin: 42px 0;
+}
+
+.about-content .right-content .icon-box .icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+/* ======================= about section end ====================== */
+
+/* ======================= card section start ===================== */
+
+#card{
+    width: 100%;
+    height: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.card-box{
+    width: 424px;
+    height: 283px;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.card-box .card-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/pizza.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-box .card-content-details span{
+    display: inline-block;
+    padding: 14px 32px 14px 32px;
+    margin: 24px 0;
+    background-color: rgba(82, 195, 3, 0.15);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+}
+
+.card-box .card-content-details .card-para-text{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    color: rgb(16, 16, 16);
+    margin: 12px 0;
+}
+
+.card-box .card-content-details .card-details-para-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+    margin: 12px 0;
+}
+
+/* ======================= card section end ===================== */
+
+/* ======================= social section start ======================== */
+
+#social{
+    width: 100%;
+    height: 671px;
+}
+.overlay-details{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.850) 100%,rgba(255, 255, 255, 0.850) 100%),
+    url("/assets/social-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-details .social-content{
+    width: 960px;
+    height: auto;
+    text-align: center;
+}
+
+.overlay-details .social-content .social-heading{
+    display: inline-block;
+    width: 805px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 24px 0;
+}
+
+.overlay-details .social-content .social-para{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+}
+
+.overlay-details .social-content .social-follow-text{
+    padding: 30px 0;
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+}
+
+.overlay-details .social-content .icon-box{
+    margin: 42px 0;
+}
+
+.overlay-details .social-content .icon-box .icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+/* ======================= social section end ======================== */
+
+/* ======================= footer section start ========================*/
+
+#footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text-content{
+    text-align: center;
+}
+
+.footer-text-content .footer-para{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(71, 71, 71);
+}
+
+.footer-text-content .text-color{
+    color:  rgb(82, 195, 3);
+}
+
+/* ======================= footer section end ========================*/
